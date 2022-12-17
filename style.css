@@ -1,0 +1,129 @@
+body{
+	 background-color: lightgrey;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.A4{
+    width: 100%;
+    height: 5000px;
+    border: 1px solid #ccc;
+    max-width: 21cm;
+    max-height: 29cm;
+    margin: auto;
+    padding: 1cm 1cm 1cm 1cm;
+    background-color: white
+
+}
+
+.kop{
+	display: grid;
+	grid-template-columns: 11cm 8cm;
+	height: 2cm;
+	width: 20cm;
+	align: center;
+}
+
+.kiriatas{
+	display: grid;
+	grid-template-columns: 2cm auto;
+}
+
+.logoikmi{
+	height: 2cm;
+    width: 1.8cm;
+    margin-top: 5px;
+}
+
+.univ{
+    font-size: 11px;
+    letter-spacing: .2px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 7px;
+    padding-top: 5px;
+}
+
+.univikmi{
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.namauniv{
+    display: grid;
+    grid-template-columns: 5.5cm auto;
+    display: pinkz;
+    margin-top: 8px;
+}
+
+.stimik{
+    font-size: 52px;
+    font-weight: bold;
+    color: green;
+    margin-top: -8px;
+    letter-spacing: 5px;
+    padding-left: 1px;
+}
+
+.nama{
+    color: darkred;
+    font-size: 32px;
+    letter-spacing: 10px;
+    margin-top: -2.5px;
+}
+
+.cirebon{
+    color: green;
+    letter-spacing: 5.5px;
+    font-size: 16px;
+    margin-top: -7px;
+}
+
+.nama, .cirebon{
+    padding-left: 10px;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.kananatas{
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+
+.sampul{
+    background-color: darkred;
+    text-align: center;
+    color: white;
+}
+
+.terakreditasi{
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+
+.tulis{
+    width: 19cm;
+    height: 24cm;
+    margin-top: 40px;
+}
+
+.tulis{
+    text-align: center;
+    font-size: 16pt;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+.nomorsurat{
+    text-align: center;
+    font-size: 10pt;
+    margin-top: 5px;
+}
